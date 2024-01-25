@@ -26,7 +26,7 @@ SwagLabs was founded with a simple goal: to be the go-to place for anyone lookin
 To set up the Swag Labs application locally, follow these steps:
 
 1. Clone the repository:
-*   git clone https://github.com/SaraAlaaElgamal/Swag-Labs
+*   git clone https://github.com/SaraAlaaElgamal/SwagLabs
 2. Navigate to the project directory:
 *   cd Swag-Labs-Final
 3. Install dependencies:
