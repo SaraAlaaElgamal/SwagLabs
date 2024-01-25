@@ -105,7 +105,7 @@ public class TC02_Products extends TestBase{
         total = new P05_CheckOutOverviewPage(driver).getTotal();
         System.out.println(total);
         //ToDo: Check the Total value is the same as the total summed
-        Assert.assertEquals((itemTotal+totalTax),total);
+        Assert.assertEquals(truncateToTwoDecimalsAsFloat(itemTotal+totalTax),total);
         Assert.assertEquals(itemTotal,totalPrice);
         new P05_CheckOutOverviewPage(driver).clickFinishBtn();
         //ToDo: Check the order has been completed successfully

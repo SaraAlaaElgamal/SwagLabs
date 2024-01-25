@@ -85,5 +85,9 @@ public class Utility {
         }
         return cellData;
     }
+    public static float truncateToTwoDecimalsAsFloat(float number) {
+        return (float)Math.round(number * 100) / 100;
+    }
+
 }
 
