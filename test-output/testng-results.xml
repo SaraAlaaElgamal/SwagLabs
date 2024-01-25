@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="14" total="20" passed="5" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-01-25T01:43:29 EET" name="All Test Suite" finished-at="2024-01-25T01:43:29 EET" duration-ms="0">
+    <groups>
+    </groups>
+  </suite> <!-- All Test Suite -->
+  <suite started-at="2024-01-25T01:43:05 EET" name="All Test Suite (0)" finished-at="2024-01-25T01:43:10 EET" duration-ms="4444">
+    <groups>
+    </groups>
+    <test started-at="2024-01-25T01:43:05 EET" name="Login With Valid Data" finished-at="2024-01-25T01:43:10 EET" duration-ms="4444">
+      <class name="testcases.TC01_Login">
+        <test-method is-config="true" signature="defineSuite()[pri:0, instance:testcases.TC01_Login@61608e1a]" started-at="2024-01-25T01:43:05 EET" name="defineSuite" finished-at="2024-01-25T01:43:05 EET" duration-ms="568" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- defineSuite -->
+        <test-method is-config="true" signature="setupDriver(java.lang.String)[pri:0, instance:testcases.TC01_Login@61608e1a]" started-at="2024-01-25T01:43:05 EET" name="setupDriver" finished-at="2024-01-25T01:43:08 EET" duration-ms="2435" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupDriver -->
+        <test-method signature="loginWithValidData_P()[pri:1, instance:testcases.TC01_Login@61608e1a]" started-at="2024-01-25T01:43:08 EET" name="loginWithValidData_P" description="Login with Valid Data" finished-at="2024-01-25T01:43:10 EET" duration-ms="1716" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginWithValidData_P -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:testcases.TC01_Login@61608e1a]" started-at="2024-01-25T01:43:10 EET" name="getResult" finished-at="2024-01-25T01:43:10 EET" duration-ms="8" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=loginWithValidData_P status=SUCCESS method=TC01_Login.loginWithValidData_P()[pri:1, instance:testcases.TC01_Login@61608e1a] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.TC01_Login@61608e1a]" started-at="2024-01-25T01:43:10 EET" name="tearDown" finished-at="2024-01-25T01:43:10 EET" duration-ms="146" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="endSuite()[pri:0, instance:testcases.TC01_Login@61608e1a]" started-at="2024-01-25T01:43:10 EET" name="endSuite" finished-at="2024-01-25T01:43:10 EET" duration-ms="554" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endSuite -->
+      </class> <!-- testcases.TC01_Login -->
+    </test> <!-- Login With Valid Data -->
+  </suite> <!-- All Test Suite (0) -->
+  <suite started-at="2024-01-25T01:43:10 EET" name="All Test Suite (1)" finished-at="2024-01-25T01:43:15 EET" duration-ms="4826">
+    <groups>
+    </groups>
+    <test started-at="2024-01-25T01:43:10 EET" name="Login With Valid Email" finished-at="2024-01-25T01:43:12 EET" duration-ms="1668">
+      <class name="testcases.TC01_Login">
+        <test-method is-config="true" signature="setupDriver(java.lang.String)[pri:0, instance:testcases.TC01_Login@2744dcae]" started-at="2024-01-25T01:43:10 EET" name="setupDriver" finished-at="2024-01-25T01:43:12 EET" duration-ms="1152" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupDriver -->
+        <test-method signature="loginWithValidEmail_N()[pri:2, instance:testcases.TC01_Login@2744dcae]" started-at="2024-01-25T01:43:12 EET" name="loginWithValidEmail_N" description="Login with Valid Email and Invalid Password" finished-at="2024-01-25T01:43:12 EET" duration-ms="425" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginWithValidEmail_N -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:testcases.TC01_Login@2744dcae]" started-at="2024-01-25T01:43:12 EET" name="getResult" finished-at="2024-01-25T01:43:12 EET" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=loginWithValidEmail_N status=SUCCESS method=TC01_Login.loginWithValidEmail_N()[pri:2, instance:testcases.TC01_Login@2744dcae] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.TC01_Login@2744dcae]" started-at="2024-01-25T01:43:12 EET" name="tearDown" finished-at="2024-01-25T01:43:12 EET" duration-ms="86" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testcases.TC01_Login -->
+    </test> <!-- Login With Valid Email -->
+    <test started-at="2024-01-25T01:43:12 EET" name="Login With Valid Password" finished-at="2024-01-25T01:43:14 EET" duration-ms="1529">
+      <class name="testcases.TC01_Login">
+        <test-method is-config="true" signature="setupDriver(java.lang.String)[pri:0, instance:testcases.TC01_Login@433ea2ac]" started-at="2024-01-25T01:43:12 EET" name="setupDriver" finished-at="2024-01-25T01:43:13 EET" duration-ms="994" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupDriver -->
+        <test-method signature="loginWithValidPassword_N()[pri:3, instance:testcases.TC01_Login@433ea2ac]" started-at="2024-01-25T01:43:13 EET" name="loginWithValidPassword_N" description="Login with Invalid Email and Valid Password" finished-at="2024-01-25T01:43:14 EET" duration-ms="439" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginWithValidPassword_N -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:testcases.TC01_Login@433ea2ac]" started-at="2024-01-25T01:43:14 EET" name="getResult" finished-at="2024-01-25T01:43:14 EET" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=loginWithValidPassword_N status=SUCCESS method=TC01_Login.loginWithValidPassword_N()[pri:3, instance:testcases.TC01_Login@433ea2ac] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.TC01_Login@433ea2ac]" started-at="2024-01-25T01:43:14 EET" name="tearDown" finished-at="2024-01-25T01:43:14 EET" duration-ms="91" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testcases.TC01_Login -->
+    </test> <!-- Login With Valid Password -->
+    <test started-at="2024-01-25T01:43:14 EET" name="Login With Invalid Data" finished-at="2024-01-25T01:43:15 EET" duration-ms="1618">
+      <class name="testcases.TC01_Login">
+        <test-method is-config="true" signature="defineSuite()[pri:0, instance:testcases.TC01_Login@372461a9]" started-at="2024-01-25T01:43:10 EET" name="defineSuite" finished-at="2024-01-25T01:43:10 EET" duration-ms="12" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- defineSuite -->
+        <test-method is-config="true" signature="setupDriver(java.lang.String)[pri:0, instance:testcases.TC01_Login@372461a9]" started-at="2024-01-25T01:43:14 EET" name="setupDriver" finished-at="2024-01-25T01:43:15 EET" duration-ms="1114" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupDriver -->
+        <test-method signature="loginWithInvalidData_N()[pri:1, instance:testcases.TC01_Login@372461a9]" started-at="2024-01-25T01:43:15 EET" name="loginWithInvalidData_N" description="Login with Invalid Data" finished-at="2024-01-25T01:43:15 EET" duration-ms="399" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginWithInvalidData_N -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:testcases.TC01_Login@372461a9]" started-at="2024-01-25T01:43:15 EET" name="getResult" finished-at="2024-01-25T01:43:15 EET" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=loginWithInvalidData_N status=SUCCESS method=TC01_Login.loginWithInvalidData_N()[pri:1, instance:testcases.TC01_Login@372461a9] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.TC01_Login@372461a9]" started-at="2024-01-25T01:43:15 EET" name="tearDown" finished-at="2024-01-25T01:43:15 EET" duration-ms="100" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="endSuite()[pri:0, instance:testcases.TC01_Login@372461a9]" started-at="2024-01-25T01:43:15 EET" name="endSuite" finished-at="2024-01-25T01:43:15 EET" duration-ms="156" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endSuite -->
+      </class> <!-- testcases.TC01_Login -->
+    </test> <!-- Login With Invalid Data -->
+  </suite> <!-- All Test Suite (1) -->
+  <suite started-at="2024-01-25T01:43:15 EET" name="All Test Suite (2)" finished-at="2024-01-25T01:43:29 EET" duration-ms="13392">
+    <groups>
+    </groups>
+    <test started-at="2024-01-25T01:43:15 EET" name="Add Random Products To Cart" finished-at="2024-01-25T01:43:21 EET" duration-ms="5110">
+      <class name="testcases.TC02_Products">
+        <test-method is-config="true" signature="setupDriver(java.lang.String)[pri:0, instance:testcases.TC02_Products@29b5e7db]" started-at="2024-01-25T01:43:15 EET" name="setupDriver" finished-at="2024-01-25T01:43:17 EET" duration-ms="1104" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupDriver -->
+        <test-method signature="AddRandomProductsToCart_P()[pri:1, instance:testcases.TC02_Products@29b5e7db]" started-at="2024-01-25T01:43:17 EET" name="AddRandomProductsToCart_P" description="Add Random Products To Cart" finished-at="2024-01-25T01:43:20 EET" duration-ms="3758" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [49.990005] but found [49.99]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [49.990005] but found [49.99]
+at org.testng.Assert.fail(Assert.java:110)
+at org.testng.Assert.failNotEquals(Assert.java:1413)
+at org.testng.Assert.assertEquals(Assert.java:844)
+at org.testng.Assert.assertEquals(Assert.java:879)
+at testcases.TC02_Products.AddRandomProductsToCart_P(TC02_Products.java:74)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:136)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:658)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:219)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:923)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:192)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:808)
+at org.testng.TestRunner.run(TestRunner.java:603)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)
+at org.testng.SuiteRunner.run(SuiteRunner.java:326)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1249)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+at org.testng.TestNG.runSuites(TestNG.java:1092)
+at org.testng.TestNG.run(TestNG.java:1060)
+at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddRandomProductsToCart_P -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:testcases.TC02_Products@29b5e7db]" started-at="2024-01-25T01:43:20 EET" name="getResult" finished-at="2024-01-25T01:43:20 EET" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=AddRandomProductsToCart_P status=FAILURE method=TC02_Products.AddRandomProductsToCart_P()[pri:1, instance:testcases.TC02_Products@29b5e7db] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.TC02_Products@29b5e7db]" started-at="2024-01-25T01:43:20 EET" name="tearDown" finished-at="2024-01-25T01:43:21 EET" duration-ms="105" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testcases.TC02_Products -->
+    </test> <!-- Add Random Products To Cart -->
+    <test started-at="2024-01-25T01:43:21 EET" name="Add Products To Cart" finished-at="2024-01-25T01:43:29 EET" duration-ms="8266">
+      <class name="testcases.TC02_Products">
+        <test-method is-config="true" signature="defineSuite()[pri:0, instance:testcases.TC02_Products@29c80149]" started-at="2024-01-25T01:43:15 EET" name="defineSuite" finished-at="2024-01-25T01:43:15 EET" duration-ms="7" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- defineSuite -->
+        <test-method is-config="true" signature="setupDriver(java.lang.String)[pri:0, instance:testcases.TC02_Products@29c80149]" started-at="2024-01-25T01:43:21 EET" name="setupDriver" finished-at="2024-01-25T01:43:24 EET" duration-ms="3031" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupDriver -->
+        <test-method signature="AddProductsToCart_P()[pri:2, instance:testcases.TC02_Products@29c80149]" started-at="2024-01-25T01:43:24 EET" name="AddProductsToCart_P" description="Add Products To Cart" finished-at="2024-01-25T01:43:28 EET" duration-ms="4363" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddProductsToCart_P -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:testcases.TC02_Products@29c80149]" started-at="2024-01-25T01:43:28 EET" name="getResult" finished-at="2024-01-25T01:43:28 EET" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=AddProductsToCart_P status=SUCCESS method=TC02_Products.AddProductsToCart_P()[pri:2, instance:testcases.TC02_Products@29c80149] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.TC02_Products@29c80149]" started-at="2024-01-25T01:43:28 EET" name="tearDown" finished-at="2024-01-25T01:43:29 EET" duration-ms="868" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="endSuite()[pri:0, instance:testcases.TC02_Products@29c80149]" started-at="2024-01-25T01:43:29 EET" name="endSuite" finished-at="2024-01-25T01:43:29 EET" duration-ms="148" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endSuite -->
+      </class> <!-- testcases.TC02_Products -->
+    </test> <!-- Add Products To Cart -->
+  </suite> <!-- All Test Suite (2) -->
+</testng-results>
